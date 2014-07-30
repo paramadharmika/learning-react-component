@@ -7,7 +7,7 @@ var IScrollContainer = React.createClass({
 			pullState: 'pull-down-to-refresh',
 		};
 	},
-	getInitialProps: {
+	getDefaultProps: {
 		pullDownLabel: 'Pull down to refresh',
 		pullDownClassName: '',
 		isShowingPullUpControl: false,
